@@ -1,25 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Google Search</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-        <script src="https://kit.fontawesome.com/8b5ef9527b.js" crossorigin="anonymous"></script>
+        <title></title>
+        <style>
+            td {
+                padding: 15px;
+            }
+            table, tr {
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
-        <div class="nav">
-            <a href="image_search.html">Image Search</a>
-            <a href="advanced_search.html">Advanced Search</a>
+        <div style='position: absolute;top:0;right:0'>
+            <table style='border-collapse: collapse;'>
+                <tr>
+                    <td><a href='http://www.google.com/search'>Upper Top</a></td>
+                    <td><a href='http://www.google.com/search'>Advanced</a></td>
+                </tr>
+            </table>
         </div>
-        <img src="images/google_logo.png" alt="Google">
-        <form action="https://google.com/search">
-            <div class="search-bar-container">
-                <i class="fas fa-search"></i>
-                <input class="search-bar" type="text" name="q">
-            </div>
-            <div class="button-group">
-                <input class="search-button" type="submit" value="Google Search">
-                <input class="search-button" type="submit" name="btnI" value="I'm Feeling Lucky">
-            </div>
+
+        <form action='https://google.com/search'>
+            <input type='text' name='q'>
+            <input type='password'>
+            <input type='submit'>
         </form>
+
+        <img src='cat.jpg' style='width:300px;display:block;margin-left:auto;margin-right:auto'>
+        
     </body>
 </html>
