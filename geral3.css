@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*GERAL*/
+body {overflow-x: hidden; margin:0px; padding:0px; }
+#header h1 {	margin-left: 128px;	margin-top: 19px; 	font-family:Helvetica;}
+#header h2 {	margin-left: 173px;}
+#header	{ height:55px;}
+#wrapper{ width:100%; }
+#wrapper div { 	font-family: Verdana; 	color: #797044;}
+#wrapper article{ 	font-family: Verdana; 	color: #797044;}
+h2{ font-size:30px;}
+#footer { 	clear:both; 	background-color: #333333;	width:1700px;	height: 100px;	margin-left: -50px;	margin-right: -50px;	margin-bottom: 0px;	background-image: url(url);}
+.footerlinks p {	text-align: center;	color: #666666;}
+.footerlinks a{	text-decoration:none;	text-align: center;	color: #666666;	}
+.footerlinks a:hover{	text-decoration:none;	text-align: center;	color:#C7C7C7;	}
+.banner_tecnologia{	height:400px;	background-position:top right;	background-repeat:no-repeat;	background-color:rgba(255,255,255,1);	}
+#titlediv {	width: 250px;	margin-left: 150px;	float: left;	clear: both;	font-family: Verdana;	color: #797044;	font-size: 12pt;	height:50px;	border:0 none;		}
+#mainnav {	float: right;	width: auto;	height:65px;	line-height:65px;	padding:0 7px;	padding-top:20px;}	
+#mainnav ul { 	margin:0;	padding:0;	line-height:30px;}
+#mainnav li {	margin:0;	padding:0;	list-style:none;	float:right;	position:relative;}
+#mainnav ul li a{	text-align:center;	font-family:"Gill Sans", cursive;	text-decoration:none;	height:30px;	width:120px;	display:block;	color:#000;}
+#mainnav ul ul{	position:absolute;	visibility:hidden;	top:30px;	}
+#mainnav ul li:hover ul{ 	visibility:visible;}
+#mainnav li:hover{	background-color: #C4AB83;}
+#mainnav a:hover{	color:#FFF}
+.fonte{	font-size: 9px;}
+.footerlinks {	font-family: Verdana;	float: left;	width: 131px;	height: 20px;	position: relative;	margin-left: 66px;	margin-top: 25px;	color: #FFFFFF;	font-weight: bold;}
+#wrapper hr {	width: 805px;	background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: -moz-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: -o-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: linear-gradient(90deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	height: 2px;	border-radius: 252px;	border-collapse: collapse;	border-spacing: 0px 12px;	border-color: #FFFFFF;	border-style: none;}
+
+/*INDEX*/
+.aboutdiv {clear: both;	text-align: center;	border-collapse: collapse;	margin-top: 0px;	clear: both;	height: auto;}
+#aboutdiv #abouttext h4 {	font-size: 14pt;}
+#regioes {background-color: #F2F2F2; height: 350px;	clear: both; }
+#regioes div {	float: left;	width: 30%;	clear: none;	border-top-left-radius: 0%;	padding-left: 32px;	padding-right: 0px;	padding-top:30px;	alignment-adjust: central;}
+#regioes div p {	color: #616161;	font-family: Verdana;	font-size: 12pt;	text-align: center;}
+#regioes div img {	border-radius: 50%; clear: both; width:auto; max-width:100%; height:auto;}
+#wrapper .teaser {	clear: both;	margin-left: 234px;	padding-top: 35px;}
+#listaimagens li img {	float: left;}
+#listaimagens {	float: left;}
+#listaimagens li  {	float: left;	list-style-type: None;}
+.teaser{	width: 631px;	margin-top: 20px;	font-family: Helvetica;	color: #616161;	font-size: 12pt;}
+
+/*A PESQUISA*/
+#regioes hr  {	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(54,32,32,1.00) 46.63%,rgba(255,255,255,1.00) 100%);	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(54,32,32,1.00) 46.63%,rgba(255,255,255,1.00) 100%);	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(54,32,32,1.00) 46.63%,rgba(255,255,255,1.00) 100%);	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(54,32,32,1.00) 46.63%,rgba(255,255,255,1.00) 100%);	width: 1px;	height: 371px;	float: left;}
+#apesquisa div { 	float: left; 	display: block;	clear: none;	font-family: Verdana;	color: #797044;	font-size: 12pt;	padding-left: 50px;	padding-right: 50px;	text-align: justify;}
+#textofolhainicial {	width: 50%;}
+#agradec {	text-align: center;}
+#folhainicial {	float: left;	width: 420px;}
+#arqrocsil {	border-style: solid;	border-width: medium;	-webkit-box-shadow: 10px 10px 5px #888888;	box-shadow: 10px 10px 5px #888888;}
+#tableascend td{	text-align:center;	border:none;}
+#tableascend{	text-align:center;	border:none;}
+
+/*REGIOES*/
+#sobreregioesintro { 	text-align: center;	width:100%;	clear:both;}
+#regioesmenu a{	font-family: Verdana;	color: #797044;	font-size: 12pt;	text-decoration: none;	font-weight: bold;	}
+
+/*REGIOES ACORES*/
+#acoresexpl div{	font-size:12px;	font-family: Verdana;	color: #797044;	}
+#acores{	position: absolute;	left: 546px;	top: 758px;	z-index: 1;	}
+#pico{	position: absolute;	left: 160px;	top: 845px;	z-index: 1;	}
+#terceira{	position: absolute;	left: 863px;	top: 983px;	z-index: 1;	width: 445px;	height: 283px;	}
+#mapapico{	position: absolute;	left: 161px;	top: 699px;	opacity: 0.7;}
+#terceiramapa{	position: absolute;	margin-left: 30px;	position: absolute;	left: 1056px;	top: 811px;	opacity: 0.8;	z-index: 2;}
+#setdir{	position: absolute;	margin-left: 30px;	left: 666px;	top: 872px;	z-index: 3;	width: 463px;	height: 135px;}
+#setaesq{	position: absolute;	margin-left: 30px;	left: 234px;	top: 1041px;	z-index: 3;	height: 128px;	width: 357px;	}
+#acoresmap{	position: absolute;	margin-left: 30px;	left: 403px;	top: 952px;	z-index: 2;	}
+.textbox{	width: 283px;	height: auto;	padding: 20px;	background: -webkit-radial-gradient(rgba(0,255,51,0.1),rgba(255,255,255,1));	background: -o-radial-gradient(rgba(0,255,51,0.1),rgba(255,255,255,1));	background: -moz-radial-gradient(rgba(0,255,51,0.1),rgba(255,255,255,1));	background: -ms-radial-gradient(rgba(0,255,51,0.1),rgba(255,255,255,1));	background-position: center;	}
+
+/*REGIOES RIO*/
+#rioexpl div{	height:400px;	clear:both;	font-size:12px;	font-family: Verdana;	color: #797044;	padding-top:30px;	}
+#chegada{	width:45%;	float:left;	}
+#riotexto{	width:45%;	float:left;	}
+
+/*REGIOES PORTUGAL*/
+#portugalexpl{	clear:both;	margin-top:20px;	}
+#portugalexpl  tr {border:none;}
+#portugalexpl td {border:none;}
+	
+/*HISTORIAS*/
+.pessoas{	font-family: Verdana;	color: #797044;	font-size: 12pt;	}
+.pessoas h1{Font-size:16pt;}
+.pessoas p{	Font-size: 12pt;}
+.content_left{	float:left;	width:70%;	padding-top:25px;	padding-left:25px;	padding-right:25px;	background-color:rgba(255,255,174,0.5);text-align:justify;}
+.content_right{ position:fixed; margin-left:75%; float:right; width:25%; padding-top:25px; text-align:left;  }
+.content_right a{ text-indent:20px; display:block; ; line-height:25px; border-bottom:#CCC 1px solid; font-family: 'Open Sans Condensed', sans-serif; font-weight:bold; font-size:15px; text-decoration:none; color:#666;}
+.content_right a:hover{ background-color:#f1f1f1; color:#000;}
+.content_left table tr td{	font-size:9pt;	height:auto;}	
+.tabletitle{	background-color:rgba(132,118,74,1);	font-size: 12px;	color:white;	}
+.tabletitle2{	background-color:rgba(165,118,67,1);	font-size: 12px;	color:white;	}
+.voltar{ clear:both; display:block; text-align:center; font-size:13px; height:60px; line-height:60px; color:#999; text-decoration:none; width:70%;}
+.content_left img{width:auto; max-width:100%; height:auto;}
+
+/*ANCESTRAIS*/
+#introimg {	opacity: 1;	}
+
+/*CONTATO*/
+#FrmContact  {margint-left:100px;color: #444; font-size: 16px; font-family: 'Open Sans Condensed', sans-serif; width: 1300px; margin: 50px 0 50px 0; text-transform: uppercase; font-weight:bold;text-align:left; }
+
+
+
+/*FONTES*/
+#fontes {	margin-left: 199px;		font-family: Verdana;	color: #616161;	font-size: 12pt;}
