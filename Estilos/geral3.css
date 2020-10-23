@@ -9,7 +9,7 @@ body {overflow-x: hidden; margin:0px; padding:0px; }
 #wrapper div { 	font-family: Verdana; 	color: #797044;}
 #wrapper article{ 	font-family: Verdana; 	color: #797044;}
 h2{ font-size:30px;}
-#footer { 	clear:both; 	background-color: #333333;	width:1700px;	height: 100px;	margin-left: -50px;	margin-right: -50px;	margin-bottom: 0px;	background-image: url(url);}
+#footer {  	clear:both;	background-color: #333333;	width:auto;	height: 100px;	margin-left: -50px;	margin-right: -100px;	margin-bottom: 0px;	background-image: url(url);}
 .footerlinks p {	text-align: center;	color: #666666;}
 .footerlinks a{	text-decoration:none;	text-align: center;	color: #666666;	}
 .footerlinks a:hover{	text-decoration:none;	text-align: center;	color:#C7C7C7;	}
