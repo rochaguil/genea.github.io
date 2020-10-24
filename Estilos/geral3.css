@@ -13,7 +13,7 @@ h2{ font-size:30px;}
 .footerlinks p {	text-align: center;	color: #666666;}
 .footerlinks a{	text-decoration:none;	text-align: center;	color: #666666;	}
 .footerlinks a:hover{	text-decoration:none;	text-align: center;	color:#C7C7C7;	}
-.banner_tecnologia{	height:400px;	background-position:top right;	background-repeat:no-repeat;	background-color:rgba(255,255,255,1);	}
+.banner_tecnologia{	height:400px;clear:both;	width: auto;	background-repeat:repeat;	background-color:rgba(255,255,255,1);	}
 #titlediv {	width: 250px;	margin-left: 150px;	float: left;	clear: both;	font-family: Verdana;	color: #797044;	font-size: 12pt;	height:50px;	border:0 none;		}
 #mainnav {	float: right;	width: auto;	height:65px;	line-height:65px;	padding:0 7px;	padding-top:20px;}	
 #mainnav ul { 	margin:0;	padding:0;	line-height:30px;}
