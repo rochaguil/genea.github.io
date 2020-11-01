@@ -4,7 +4,7 @@
 body {overflow-x: hidden; margin:0px; padding:0px; }
 #header h1 {	margin-left: 128px;	margin-top: 19px; 	font-family:Helvetica;}
 #header h2 {	margin-left: 173px;}
-#header	{ height:55px;}
+#header	{ height:55px;position:fixed;width:100%;margin:0;padding:0;    background-color:  white;overflow: hidden;}
 #wrapper{ width:100%; }
 #wrapper div { 	font-family: Verdana; 	color: #797044;}
 #wrapper article{ 	font-family: Verdana; 	color: #797044;}
@@ -13,16 +13,17 @@ h2{ font-size:30px;}
 .footerlinks p {	text-align: center;	color: #666666;}
 .footerlinks a{	text-decoration:none;	text-align: center;	color: #666666;	}
 .footerlinks a:hover{	text-decoration:none;	text-align: center;	color:#C7C7C7;	}
-.banner_tecnologia{	height:400px;clear:both;	width: auto;	background-repeat:repeat;	background-color:rgba(255,255,255,1);	}
+.banner_tecnologia{height:400px;clear:both;	width: auto;	background-repeat:repeat;	background-color:rgba(255,255,255,1);	}
+
 #titlediv {	width: 250px;	margin-left: 150px;	float: left;	clear: both;	font-family: Verdana;	color: #797044;	font-size: 12pt;	height:50px;	border:0 none;		}
-#mainnav {	float: right;	width: auto;	height:65px;	line-height:65px;	padding:0 7px;	padding-top:20px;}	
+#mainnav {	float: right;	width: auto;	height:65px;	line-height:65px;	padding:0 7px;	padding-top:20px;}
 #mainnav ul { 	margin:0;	padding:0;	line-height:30px;}
 #mainnav li {	margin:0;	padding:0;	list-style:none;	float:right;	position:relative;}
 #mainnav ul li a{	text-align:center;	font-family:"Gill Sans", cursive;	text-decoration:none;	height:30px;	width:120px;	display:block;	color:#000;}
 #mainnav ul ul{	position:absolute;	visibility:hidden;	top:30px;	}
 #mainnav ul li:hover ul{ 	visibility:visible;}
 #mainnav li:hover{	background-color: #C4AB83;}
-#mainnav a:hover{	color:#FFF}
+
 .fonte{	font-size: 9px;}
 .footerlinks {	font-family: Verdana;	float: left;	width: 131px;	height: 20px;	position: relative;	margin-left: 66px;	margin-top: 25px;	color: #FFFFFF;	font-weight: bold;}
 #wrapper hr {	width: 805px;	background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: -moz-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: -o-linear-gradient(0deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	background-image: linear-gradient(90deg,rgba(255,255,255,1.00) 0.52%,rgba(29,15,15,1.00) 43.52%,rgba(255,255,255,1.00) 100%);	height: 2px;	border-radius: 252px;	border-collapse: collapse;	border-spacing: 0px 12px;	border-color: #FFFFFF;	border-style: none;}
@@ -75,16 +76,17 @@ h2{ font-size:30px;}
 #portugalexpl{	clear:both;	margin-top:20px;	}
 #portugalexpl  tr {border:none;}
 #portugalexpl td {border:none;}
-	
+
 /*HISTORIAS*/
 .pessoas{	font-family: Verdana;	color: #797044;	font-size: 12pt;	}
 .pessoas h1{Font-size:16pt;}
 .pessoas p{	Font-size: 12pt;}
 .content_left{	float:left;	width:70%;	padding-top:25px;	padding-left:25px;	padding-right:25px;	background-color:rgba(255,255,174,0.5);text-align:justify;}
-.content_right{ position:fixed; margin-left:75%; float:right; width:25%; padding-top:25px; text-align:left;  }
-.content_right a{ text-indent:20px; display:block; ; line-height:25px; border-bottom:#CCC 1px solid; font-family: 'Open Sans Condensed', sans-serif; font-weight:bold; font-size:15px; text-decoration:none; color:#666;}
+.content_right{  float:right; width:25%; padding-top:100px; text-align:left;      height:100%}
+.content_right ul {width:100%; height:100%;list-style-type: none;     margin: 0;     padding: 0; position:fixed;overflow:auto;}
+.content_right a{ text-indent:20px; display:block;  line-height:25px;  font-family: 'Open Sans Condensed', sans-serif; font-weight:bold; font-size:15px; text-decoration:none; color:#666;}
 .content_right a:hover{ background-color:#f1f1f1; color:#000;}
-.content_left table tr td{	font-size:9pt;	height:auto;}	
+.content_left table tr td{	font-size:9pt;	height:auto;}
 .tabletitle{	background-color:rgba(132,118,74,1);	font-size: 12px;	color:white;	}
 .tabletitle2{	background-color:rgba(165,118,67,1);	font-size: 12px;	color:white;	}
 .voltar{ clear:both; display:block; text-align:center; font-size:13px; height:60px; line-height:60px; color:#999; text-decoration:none; width:70%;}
